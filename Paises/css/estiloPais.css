@@ -1,0 +1,123 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+body{
+  background-image: url("../img/foot.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color:cornflowerblue;
+    clear: left;
+    text-align: center;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:royalblue;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(128, 74, 216);}
+
+ul.topnav li a.active {background-color: #563186;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+
+a.active {
+    color: rgb(56, 30, 85);
+}
+
+article {
+    border-left: 1px solid rgb(158, 103, 190);
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc00;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 250px;
+  text-align: justify;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+
+
+#mexico{
+  color:rgb(138, 83, 182);
+}
+
+#londres{
+  color:rgb(138, 83, 182);
+}
+
+#paris{
+  color:rgb(138, 83, 182);
+}
+
+#tokyo{
+  color:rgb(138, 83, 182);
+}
+
+#brasil{
+  color:rgb(138, 83, 182);
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: left;
+  }
+.banderaLon{
+  background-image: url("../img/londres.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.banderaPar{
+  background-image: url("../img/francia.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.banderaTok{
+  background-image: url("../img/tokyo.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.banderaBra{
+  background-image: url("../img/brasil.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
